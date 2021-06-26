@@ -75,7 +75,7 @@ function removerDoTime (i) {
   salvarTime()
 }
 
-function buscarPokemon () {
+async function buscarPokemon () {
   const pokename = document.getElementById(`pokename`)
   const resultadosBusca = document.getElementById(`resultados-busca`)
   const quantResultados = document.getElementById(`quantidade-resultados`)
@@ -87,7 +87,7 @@ function buscarPokemon () {
   resultadosBusca.innerHTML = ""
 
   for (pokemon of results)
-    resultadosBusca.innerHTML += pokeCard(pokemon)
+    resultadosBusca.innerHTML += await pokeCard(pokemon)
 }
 
 async function pokeCard (pokemon, indiceNoTime = null) {
@@ -101,11 +101,10 @@ async function pokeCard (pokemon, indiceNoTime = null) {
 
   const botoes = indiceNoTime ? botaoRemover : botaoAdd
 
-  const imageOK = await imageExists(pokemon.sprites.animated)
-  console.log(`........`)
-  console.log(imageOK)
-  console.log(`........`)
+  // imageExists(pokemon.sprites.animated, async function (result) {
 
+  // })
+  imageOK = true
   const image = imageOK ? pokemon.sprites.animated : `https://www.unimedlondrina.com.br/uploads//no-picture.png`
 
   return `<div class="pokecard">
@@ -145,17 +144,17 @@ function buscaNaLista (parteDoNome) {
   return listaFiltradaPorNome
 }
 
-async function imageExists (image_url) {
+async function imageExists (image_url, callback) {
   const img = new Image();
   img.src = image_url;
   if (img.complete) {
-    return true
+    callback(true)
   } else {
     img.onload = () => {
-      return true
+      callback(true)
     }
     img.onerror = () => {
-      return false
+      callback(false)
     }
   }
 }
