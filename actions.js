@@ -142,12 +142,11 @@ function buscaNaLista (parteDoNome) {
 }
 
 async function imageExists (image_url) {
-  var http = new XMLHttpRequest()
+  let resultado = await fetch(image_url)
+  console.log(resultado)
 
-  http.open('HEAD', image_url, false)
-  http.send()
 
-  return http.status == 200
+  return
 }
 
 
