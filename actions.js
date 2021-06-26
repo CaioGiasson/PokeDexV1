@@ -1,5 +1,23 @@
 var meuTime = []
 
+var campoNomePokemon = document.getElementById(`pokename`)
+
+function apertouEnter (key) {
+  if (key.keyCode == 13) buscarPokemon()
+}
+
+function ativarCampo (key) {
+  if (campoNomePokemon == document.activeElement) return
+
+  if (key.keyCode < 65 || key.keyCode > 90) return
+
+  campoNomePokemon.value = key.key
+  campoNomePokemon.focus()
+}
+document.addEventListener('keyup', ativarCampo)
+
+campoNomePokemon.addEventListener('keyup', apertouEnter)
+
 function mostrarTime () {
   const time = document.getElementById(`meu-time`)
 
