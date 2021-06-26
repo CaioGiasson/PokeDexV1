@@ -1,4 +1,10 @@
-var meuTime = []
+var timeSalvo = localStorage.getItem('meuTime')
+var meuTime = JSON.parse(timeSalvo)
+
+if (!timeSalvo) {
+  meuTime = []
+  salvarTime()
+}
 
 var campoNomePokemon = document.getElementById(`pokename`)
 
@@ -14,9 +20,10 @@ function ativarCampo (key) {
   campoNomePokemon.value = key.key
   campoNomePokemon.focus()
 }
-document.addEventListener('keyup', ativarCampo)
 
+document.addEventListener('keyup', ativarCampo)
 campoNomePokemon.addEventListener('keyup', apertouEnter)
+campoNomePokemon.focus()
 
 function mostrarTime () {
   const time = document.getElementById(`meu-time`)
@@ -43,13 +50,29 @@ function adicionarAoTime (i) {
   }
 
   const pokemon = listaPokemon[i]
+
+  const repetidos = meuTime.filter(poke => poke.national_number == pokemon.national_number)
+  if (repetidos.length > 0) {
+    alert(`Você já tem ${pokemon.name} no seu time. Escolha outro, pq é feio repetir, seu apelão`)
+    return
+  }
+
   meuTime.push(pokemon)
   mostrarTime()
+
+  salvarTime()
+}
+
+function salvarTime () {
+  const meuTimeString = JSON.stringify(meuTime)
+  localStorage.setItem('meuTime', meuTimeString)
 }
 
 function removerDoTime (i) {
   meuTime.splice(i, 1)
   mostrarTime()
+
+  salvarTime()
 }
 
 function buscarPokemon () {
