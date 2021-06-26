@@ -101,8 +101,11 @@ function pokeCard (pokemon, indiceNoTime = null) {
 
   const botoes = indiceNoTime ? botaoRemover : botaoAdd
 
+  const imageOK = imageExists(pokemon.sprites.animated)
+  const image = imageOK ? pokemon.sprites.animated : `https://www.unimedlondrina.com.br/uploads//no-picture.png`
+
   return `<div class="pokecard">
-      <img src="${pokemon.sprites.animated}" alt="Ilustração do pokemon ${name}" />
+      <img src="${image}" alt="Ilustração do pokemon ${name}" />
       <b class="name">${name}</b>
       <span class="prop">HP: ${pokemon.hp}</span>
       <span class="prop">Attack: ${pokemon.attack}</span>
@@ -138,11 +141,15 @@ function buscaNaLista (parteDoNome) {
   return listaFiltradaPorNome
 }
 
-function imageExists (image_url) {
+async function imageExists (image_url) {
   var http = new XMLHttpRequest()
 
   http.open('HEAD', image_url, false)
-  http.send();
+  http.send()
 
   return http.status == 200
 }
+
+
+
+
