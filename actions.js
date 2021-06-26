@@ -25,7 +25,7 @@ document.addEventListener('keyup', ativarCampo)
 campoNomePokemon.addEventListener('keyup', apertouEnter)
 campoNomePokemon.focus()
 
-function mostrarTime () {
+async function mostrarTime () {
   const time = document.getElementById(`meu-time`)
 
   if (meuTime.length == 0) {
@@ -37,7 +37,7 @@ function mostrarTime () {
   for (let i in meuTime) {
     const pokemon = meuTime[i]
 
-    time.innerHTML += pokeCard(pokemon, i)
+    time.innerHTML += await pokeCard(pokemon, i)
   }
 }
 
