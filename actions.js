@@ -90,7 +90,7 @@ function buscarPokemon () {
     resultadosBusca.innerHTML += pokeCard(pokemon)
 }
 
-function pokeCard (pokemon, indiceNoTime = null) {
+async function pokeCard (pokemon, indiceNoTime = null) {
 
   const isMega = pokemon.evolution != null
   const name = isMega ? pokemon.evolution.name : pokemon.name
@@ -101,7 +101,11 @@ function pokeCard (pokemon, indiceNoTime = null) {
 
   const botoes = indiceNoTime ? botaoRemover : botaoAdd
 
-  const imageOK = imageExists(pokemon.sprites.animated)
+  const imageOK = await imageExists(pokemon.sprites.animated)
+  console.log(`........`)
+  console.log(imageOK)
+  console.log(`........`)
+
   const image = imageOK ? pokemon.sprites.animated : `https://www.unimedlondrina.com.br/uploads//no-picture.png`
 
   return `<div class="pokecard">
@@ -142,11 +146,18 @@ function buscaNaLista (parteDoNome) {
 }
 
 async function imageExists (image_url) {
-  let resultado = await fetch(image_url)
-  console.log(resultado)
-
-
-  return
+  const img = new Image();
+  img.src = image_url;
+  if (img.complete) {
+    return true
+  } else {
+    img.onload = () => {
+      return true
+    }
+    img.onerror = () => {
+      return false
+    }
+  }
 }
 
 
