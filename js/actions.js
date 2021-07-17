@@ -160,5 +160,56 @@ async function imageExists (image_url, callback) {
 }
 
 
+// TEMP 
+const poke1 = listaPokemon[365]
+const poke2 = listaPokemon[277]
 
+function lutar (poke1, poke2) {
+
+  let primeiro, segundo
+  if (poke1.speed > poke2.speed) {
+    primeiro = poke1
+    segundo = poke2
+  } else {
+    primeiro = poke2
+    segundo = poke1
+  }
+
+  console.log(`Começa o combate`)
+
+  console.log(primeiro.name, `ataca`, segundo.name)
+
+  let tenta = Math.random()
+  if (tenta > 50 / 100) {
+    let dano = primeiro.attack - segundo.defense
+    console.log(`Acertou, e causou`, dano, `de dano`)
+
+    segundo.hp = segundo.hp - dano
+
+    if (segundo.hp <= 0) {
+      console.log(segundo.name, `desmaiou`)
+      return
+    }
+  }
+  else {
+    console.log(`ERRRROUUUU`)
+  }
+
+  console.log(segundo.name, `vai revidar`)
+
+  tenta = Math.random()
+  if (tenta > 50 / 100) {
+    dano = segundo.attack - primeiro.defense
+    console.log(`Causou`, dano, `de dano`)
+
+    primeiro.hp = primeiro.hp - dano
+    if (primeiro.hp <= 0) {
+      console.log(primeiro.name, `desmaiou`)
+      return
+    }
+  }
+  else {
+    console.log(`ERROU`)
+  }
+}
 
