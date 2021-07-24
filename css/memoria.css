@@ -2,6 +2,10 @@ body {
   background: #555;
 }
 
+.smooth-faster{ transition: all 0.1s; }
+.smooth-fast{ transition: all 0.3s; }
+.smooth-slow{ transition: all 0.6s; }
+
 .card { 
   display: inline-block;
   position: relative;
@@ -12,7 +16,9 @@ body {
   border-radius: 16px;
   overflow: hidden;
   cursor: pointer;
+  transform: rotateY(0deg);
 }
+.card.revelada { opacity: 0.4; }
 
 .card img {
   display: block;
@@ -35,6 +41,13 @@ body {
   opacity: 1;
 }
 
-.card .back.hidden{
+.card.virada .back, .card.revelada .back{
   opacity: 0;
 }
+
+.card.virando { 
+  transform: rotateY(90deg);
+}
+
+.girando { animation: giro 5s linear infinite; }
+@keyframes giro { from { transform: rotate(0deg) } to { transform: rotate(360deg); } }
