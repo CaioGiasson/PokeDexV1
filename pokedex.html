@@ -1,0 +1,35 @@
+<html>
+
+<head>
+
+  <meta charset="utf-8" />
+
+  <title>Pokedex</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- SCRIPTS -->
+  <script type="text/javascript" src="js/lista.js"></script>
+
+</head>
+
+<body onload="mostrarTime()">
+
+  <h2>Meu time</h2>
+  <div id="meu-time"></div>
+
+  <h2>Pokedex</h2>
+
+  <input type="text" name="nomeDoPokemon" id="pokename" placeholder="Digite aqui o nome do pokemon" />
+  <button onclick="buscarPokemon()">Buscar pokemon</button>
+
+  <p id="quantidade-resultados"></p>
+
+  <div id="resultados-busca"></div>
+
+  <script type="text/javascript" src="js/actions.js"></script>
+
+</body>
+
+</html>

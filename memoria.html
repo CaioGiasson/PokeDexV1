@@ -16,11 +16,21 @@
 
 <body>
 
-  <p id="gameSetup">
-    Quantidade de pares
+  <div id="cabecalho">
+    <h1>Jogo da memória</h1>
+    <div id="timer">
+      <h4>Tente bater o recorde!!!!!</h4>
+    </div>
+    <div id="barrinha">
+      <div class="preenchida"></div>
+    </div>
+  </div>
+
+  <div id="gameSetup">
+    <p>Quantidade de pares</p>
     <input type="number" name="quantPares" id="quantPares" />
     <button onclick="startGame()">Iniciar</button>
-  </p>
+  </div>
 
   <div id="tabuleiro">
   </div>

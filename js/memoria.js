@@ -1,9 +1,10 @@
 // Regras do jogo
-var minimoPares = 4
+var minimoPares = 1
 var maximoPares = 16
 var quantidadePares = 0
 var indiceMaximoPokemon = 183
-window.animando = false
+var animando = false
+var iniciouPartida = false
 
 // A função "startGame", ao ser executada, vai pegar o valor digitado no campo "gameSetup"
 // a seguir vai sortear uma quantidade de pokemons correpondente a esse valor
@@ -29,6 +30,21 @@ function startGame () {
     tabuleiro.innerHTML += pokecard
   }
 
+}
+
+function iniciarTimer () {
+  window.tempo = 0
+  atualizarTimer()
+
+  window.temporizador = setInterval(function () {
+    window.tempo++
+    atualizarTimer()
+  }, 1000)
+}
+
+function atualizarTimer () {
+  let timer = document.getElementById(`timer`)
+  timer.innerHTML = `<h4>Tempo decorrido: ${window.tempo}</h4>`
 }
 
 function embaralhar (array) {
@@ -65,7 +81,7 @@ function sortearPares () {
     let pokemonSorteado = sortearPokemon()
 
     // se o pokemon já foi sorteado então sortear novamente
-    if (!listaSorteados.includes(pokemonSorteado) || pokemonSorteado.evolution == null) {
+    if (!listaSorteados.includes(pokemonSorteado) && pokemonSorteado.evolution == null) {
       listaSorteados.push(pokemonSorteado)
       listaSorteados.push(pokemonSorteado)
       i = i + 1
@@ -82,44 +98,49 @@ function sortearPokemon () {
 }
 
 function interagir (carta) {
-  if (window.animando) return
 
-  window.animando = true
+  // Debouncing da animação, pra evitar bugs se o usuário sair clicando alopradamente
+  if (animando) return
+  animando = true
+
+  // Inicia o timer somente quando o usuário interagir com a primeira carta
+  if (!iniciouPartida) {
+    window.iniciouPartida = true
+    iniciarTimer()
+  }
 
   // 0 - Se clicou em uma carta já revelada, não faz nada
   if (carta.classList.contains(`revelada`)) {
-    window.animando = false
+    animando = false
     return;
   }
 
   // 1 - Se não tiver nenhuma carta virada, simplesmente vira a carta clicada
   if (document.getElementsByClassName(`virada`).length == 0) {
     virar(carta)
-    setTimeout(function () { window.animando = false }, 300)
+    liberarAnimacoes()
     return;
   }
 
   // 2 - Se já houver 1 carta virada e clicou na mesma carta, não faz nada
   if (document.getElementsByClassName(`virada`).length == 1 && carta.classList.contains(`virada`)) {
-    window.animando = false
+    animando = false
     return;
   }
 
   // 3 - Se já houver 1 carta e clicou em uma carta desvirada, vira a carta clicada e analisa se formam um par
   if (document.getElementsByClassName(`virada`).length == 1 && !carta.classList.contains(`virada`)) {
     virar(carta)
-    setTimeout(function () {
-      analisarPar()
-    }, 1000)
+    setTimeout(analisarPar, 1000)
     return;
   }
 
   if (carta.classList.contains(`virada`)) {
     desvirar(carta)
-    setTimeout(function () { window.animando = false }, 300)
+    liberarAnimacoes()
   } else {
     virar(carta)
-    setTimeout(function () { window.animando = false }, 300)
+    liberarAnimacoes()
   }
 
 }
@@ -134,13 +155,15 @@ function analisarPar () {
     carta2.classList.add(`revelada`)
     carta1.classList.remove(`virada`)
     carta2.classList.remove(`virada`)
+
+    checkGameOver()
   } else {
     // 3.2 - Se não formarem um par, então desvira ambas
     desvirar(carta1)
     desvirar(carta2)
-
-    setTimeout(function () { window.animando = false }, 300)
   }
+
+  liberarAnimacoes()
 }
 
 function virar (carta) {
@@ -155,10 +178,63 @@ function desvirar (carta) {
   setTimeout(function () { carta.classList.remove(`virando`) }, 400)
 }
 
+function liberarAnimacoes () {
+  setTimeout(function () { animando = false }, 350)
+}
+
+function isGameOver () {
+  const
+    quantReveladas = document.getElementsByClassName(`revelada`).length,
+    quantTotal = document.getElementsByClassName(`card`).length
+
+  return quantTotal == quantReveladas
+}
+
+function checkGameOver () {
+
+  if (isGameOver()) {
+
+    const
+      tempoDecorrido = window.tempo,
+      unidade = tempoDecorrido > 1 ? `segundos` : `segundo`,
+
+      recorde = lerRecorde(),
+      isNewRecord = recorde == 0 || tempoDecorrido < recorde,
+      recordClass = isNewRecord ? `new-record` : `not-record`,
+
+      recordMessage = isNewRecord
+        ? `NOVO RECORDE EM ${quantidadePares} PARES: ${tempoDecorrido} ${unidade}`
+        : `Vc terminou em ${tempoDecorrido} ${unidade}, mas o recorde em ${quantidadePares} pares é ${recorde}`
+
+    if (isNewRecord) {
+      salvarRecorde(tempoDecorrido)
+    }
+
+    let tabuleiro = document.getElementById(`tabuleiro`)
+    tabuleiro.innerHTML = `<h3 class="${recordClass}">${recordMessage}<h3>`
+
+    clearInterval(window.temporizador)
+  }
+
+}
+
+function lerRecorde () {
+  const recorde = localStorage.getItem(`recorde-${quantidadePares}`)
+  return recorde == null ? 0 : recorde
+}
+
+function salvarRecorde (tempo) {
+  localStorage.setItem(`recorde-${quantidadePares}`, tempo)
+}
 
 /*
-  PENDÊNCIAS:
-  - GAME OVER e "Gostaria de recomeçar?" ao encontrar todos os pares
-  - Contar quanto tempo a pessoa levou pra resolver
-  - Resolver o bug dos clicks múltiplos
+  DESAFIOS:
+  - Colocar botão de "Jogar novamente" (mesma quantidade de pares)
+  - Colocar botão de "Outra quantidade de pares"
+  - Corrigir mensagem "1 pares" para "1 par" ou "2 pares"
+  - Melhorar o CSS (ou talvez o HTML mesmo) das mensagens, pra ficar mais bonitinho
+  - Colocar um "contador de progresso" pra mostrar quantos pares o usuário já achou
+
+  DICAS:
+  document.getElementById(`barrinha`).innerHTML = `<div class="preenchida" style="width: ${porcentagem}%"></div>`
 */
