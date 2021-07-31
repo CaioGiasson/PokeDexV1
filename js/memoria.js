@@ -53,7 +53,7 @@ function obterCard (pokemon) {
 
   return `<div class="card smooth-fast" onclick="interagir(this)" data-number="${pokemon.national_number}">
             <img src="${pokemon.sprites.large}" alt="${pokemon.name}"/>
-            <span class="back"><img class="girando" src="/img/pokebola.png" alt="Fundo da carta com uma pokebola"/></span>
+            <span class="back"><img class="girando" src="img/pokebola.png" alt="Fundo da carta com uma pokebola"/></span>
           </div>`
 }
 
