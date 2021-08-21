@@ -1,6 +1,8 @@
 body {
   background: #333;
   color: #eee;
+  font-size: 14px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .smooth-faster{ transition: all 0.1s; }
@@ -60,7 +62,7 @@ body {
 #barrinha {
   display: block;
   position: relative;
-  width: 400px;
+  width: 500px;
   height: 50px;
   background: #aaa;
 }
@@ -69,4 +71,28 @@ body {
   position: relative;
   height: 50px;
   background: green;
+}
+
+#barrinha .valor {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.7em;
+  color: yellow;
+}
+
+.new-game-button {
+  border: solid 2px yellow;
+  border-radius: 5px;
+  background: #eee;
+  padding: 5px 25px;
+  font-size: 1.2em; 
+  font-weight: bold;
+  cursor: pointer;
+  color: #333; 
 }

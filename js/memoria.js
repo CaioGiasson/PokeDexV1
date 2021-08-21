@@ -17,19 +17,38 @@ function startGame () {
   if (n < minimoPares || n > maximoPares)
     return alert(`Essa quantidade de pares nao é válida`)
 
-  document.getElementById(`gameSetup`).remove()
+  document.getElementById(`gameSetup`).innerHTML = ``
 
   quantidadePares = n
+
+  embaralharPares()
+}
+
+function embaralharPares () {
+  atualizarBarrinhaPorcentagem(0)
+
+  window.iniciouPartida = false
+  window.tempo = 0
+  atualizarTimer()
 
   pokemonSorteados = sortearPares()
   pokemonSorteados = embaralhar(pokemonSorteados)
 
   let tabuleiro = document.getElementById(`tabuleiro`)
+  tabuleiro.innerHTML = ``
   for (poke of pokemonSorteados) {
     let pokecard = obterCard(poke)
     tabuleiro.innerHTML += pokecard
   }
+}
 
+function selecionarPares () {
+  atualizarBarrinhaPorcentagem(0)
+  document.getElementById(`gameSetup`).innerHTML = `    
+    <p>Quantidade de pares</p>
+    <input type="number" name="quantPares" id="quantPares" /> 
+    <button onclick="startGame()">Iniciar</button>`
+  document.getElementById(`tabuleiro`).innerHTML = ``
 }
 
 function iniciarTimer () {
@@ -39,7 +58,40 @@ function iniciarTimer () {
   window.temporizador = setInterval(function () {
     window.tempo++
     atualizarTimer()
+    atualizarBarrinha()
   }, 1000)
+}
+
+function atualizarBarrinha () {
+  const
+    quantosParesEncontrados = document.getElementsByClassName(`revelada`).length,
+    porcentagemParesEncontrados = quantosParesEncontrados / (quantidadePares * 2),
+    porcentagemLegivel = 100 * porcentagemParesEncontrados
+
+  atualizarBarrinhaPorcentagem(porcentagemLegivel)
+}
+
+function atualizarBarrinhaPorcentagem (valor) {
+  let
+    barrinhasPreenchidas = document.getElementsByClassName(`preenchida`),
+    elementosValorPorcentagem = document.getElementsByClassName(`valor`)
+
+  if (barrinhasPreenchidas.length !== 1) return
+
+  let
+    barrinhaPreenchida = barrinhasPreenchidas[0],
+    elementoValorPorcentagem = elementosValorPorcentagem[0],
+
+    // MÉTODO 1: Lendo os dados do HTML
+    // paresEncontrados = document.getElementsByClassName(`revelada`).length / 2,
+    // textoPares = paresEncontrados == 1 ? ` par encontrado` : ` pares encontrados`
+
+    // MÉTODO 2: Calculando pela porcentagem
+    paresEncontrados = Math.round(valor * quantidadePares / 100),
+    textoPares = paresEncontrados == 1 ? ` par encontrado` : ` pares encontrados`
+
+  barrinhaPreenchida.style.width = valor.toFixed(1) + "%"
+  elementoValorPorcentagem.innerHTML = paresEncontrados + textoPares
 }
 
 function atualizarTimer () {
@@ -194,6 +246,8 @@ function checkGameOver () {
 
   if (isGameOver()) {
 
+    atualizarBarrinhaPorcentagem(100)
+
     const
       tempoDecorrido = window.tempo,
       unidade = tempoDecorrido > 1 ? `segundos` : `segundo`,
@@ -204,14 +258,19 @@ function checkGameOver () {
 
       recordMessage = isNewRecord
         ? `NOVO RECORDE EM ${quantidadePares} PARES: ${tempoDecorrido} ${unidade}`
-        : `Vc terminou em ${tempoDecorrido} ${unidade}, mas o recorde em ${quantidadePares} pares é ${recorde}`
+        : `Vc terminou em ${tempoDecorrido} ${unidade}, mas o recorde em ${quantidadePares} pares é ${recorde}`,
+
+      newGameButton = `<span class="new-game-button" onclick="embaralharPares()">Jogar novamente com ${quantidadePares} pares</span>`,
+
+      choosePairsButton = `<span class="new-game-button" onclick="selecionarPares()">Selecionar quantidade de pares</span>`
+
 
     if (isNewRecord) {
       salvarRecorde(tempoDecorrido)
     }
 
     let tabuleiro = document.getElementById(`tabuleiro`)
-    tabuleiro.innerHTML = `<h3 class="${recordClass}">${recordMessage}<h3>`
+    tabuleiro.innerHTML = `<h3 class="${recordClass}">${recordMessage}</h3> ${newGameButton} ${choosePairsButton}`
 
     clearInterval(window.temporizador)
   }
@@ -229,12 +288,10 @@ function salvarRecorde (tempo) {
 
 /*
   DESAFIOS:
-  - Colocar botão de "Jogar novamente" (mesma quantidade de pares)
-  - Colocar botão de "Outra quantidade de pares"
-  - Corrigir mensagem "1 pares" para "1 par" ou "2 pares"
+OK  - Colocar botão de "Jogar novamente" (mesma quantidade de pares)
+OK  - Colocar botão de "Outra quantidade de pares"
+OK  - Arrumar a barra de progresso para mostrar visualmente quantos pares já foram encontrados
+OK  - Colocar um "contador de progresso" pra mostrar quantos pares o usuário já achou
+OK  - Corrigir mensagem "1 pares" para "1 par" ou "2 pares"
   - Melhorar o CSS (ou talvez o HTML mesmo) das mensagens, pra ficar mais bonitinho
-  - Colocar um "contador de progresso" pra mostrar quantos pares o usuário já achou
-
-  DICAS:
-  document.getElementById(`barrinha`).innerHTML = `<div class="preenchida" style="width: ${porcentagem}%"></div>`
 */
