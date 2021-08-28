@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+body { 
+  background: #211a21;
+  color: #cec9cc;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 1.5em;
+}
+
+#menu button {
+  padding: 8px 25px;
+  font-size: 1em;
+  background-color: #b5b6e4;
+  color: #4f43ae;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+#menu button:hover {
+  background-color: #4f43ae;
+  color: #cec9cc;
+}
+
+#jogo .pokemon {
+  display: block;
+  position: relative;
+  margin: 20px auto;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  background: #fff;
+}
+
+#jogo .pokemon .qual { 
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
