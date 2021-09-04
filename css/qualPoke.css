@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
+* { font-family: 'Architects Daughter', cursive; }
+
 body { 
   background: #211a21;
   color: #cec9cc;
-  font-family: 'Architects Daughter', cursive;
   font-size: 1.5em;
 }
 
-#menu button {
+.button {
   padding: 8px 25px;
   font-size: 1em;
   background-color: #b5b6e4;
@@ -17,9 +18,14 @@ body {
   cursor: pointer;
 }
 
-#menu button:hover {
+.button:hover {
   background-color: #4f43ae;
   color: #cec9cc;
+}
+
+#jogo {
+  display: block;
+  position: relative;
 }
 
 #jogo .pokemon {
@@ -32,8 +38,53 @@ body {
   background: #fff;
 }
 
+#jogo .cobertura {
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: solid 500px #000;
+  top: -350px;
+  left: -350px;
+  border-radius: 550px;
+}
+
+#jogo .timer {
+  display: block;
+  position: absolute;
+  background: #908a99;
+  padding: 0 20px;
+  border-radius: 30px;
+  color: #211a21;
+  top: 0;
+  left: 0;
+}
+
+#jogo .tentativas {
+  display: block;
+  position: absolute;
+  background: #908a99;
+  padding: 0 20px;
+  border-radius: 30px;
+  color: #211a21;
+  top: 40px;
+  left: 0;
+}
+
 #jogo .pokemon .qual { 
   height: 100%;
   width: 100%;
   object-fit: contain;
 }
+
+#jogo .nomePokemon {
+  display: block;
+  position: relative;
+  width: 300px;
+  height: 40px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.4em;
+}
+
+#jogo p { font-size: 0.6em; text-align: center; }
