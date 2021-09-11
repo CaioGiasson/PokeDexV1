@@ -1,8 +1,17 @@
 var pokemonSorteado = null
+var tentativas = 0
+var time = 0
+var jogoAcabou = false
 
 var jogo = document.getElementById(`jogo`)
 var menu = document.getElementById(`menu`)
 
+setInterval(function () {
+  if (!jogoAcabou) {
+    time++
+    atualizarTimer()
+  }
+}, 1000)
 
 function voltar () {
   document.location = `index.html`
@@ -10,19 +19,9 @@ function voltar () {
 
 function iniciarJogo () {
   menuIngame()
+  jogoAcabou = false
+  time = 0
 
-  // Iniciar um novo jogo
-  // OK    Sortear um pokemon
-  // OK    Mostrar o pokemon sorteado
-  // OK    Mostrar uma "cobertura" sobre o pokemon (sem dar tempo de ver o pokemon)
-  // OK    Fazer a posição da cobertura ser aleatória
-  // OK    Mostrar timer
-  // OK    Iniciar o timer
-  // OK    Atualizar o timer
-  // OK    Mostrar contagem de tentativas
-  // OK    Criar o campo "Dica", mas deixar em branco
-  // OK     Alterado para Botão Dica, que muda a posição da "janelinha de visão"
-  // OK    Campo para digitar o nome do pokemon
   pokemonSorteado = sortearPokemon()
 
   jogo.innerHTML = `
@@ -32,38 +31,82 @@ function iniciarJogo () {
     </div>
     <div class="timer">00:00</div>
     <div class="tentativas">Tentativas: 0</div>
-    <input type="text" name="nomePokemon" class="nomePokemon" />
+    <input type="text" name="nomePokemon" class="nomePokemon"/>
     <p>Qual é o meu nome? Digite e aperte ENTER</p>
+    <p class="result"></p>
   `
 
   var campoNomePokemon = document.getElementsByClassName("nomePokemon")[0]
   campoNomePokemon.focus()
+  campoNomePokemon.addEventListener("keyup", tentativa)
 
   trocarPosicaoCobertura()
-  iniciarTimer()
 }
 
-function iniciarTimer () {
-  window.time = 0
-  window.timerId = setInterval(function () {
-    window.time++
-    atualizarTimer()
-  }, 1000)
+function revelar () {
+  var cobertura = document.getElementsByClassName("cobertura")[0]
+  cobertura.classList.add("animada")
+  cobertura.classList.add("revelada")
+}
+
+function tentativa (e) {
+  if (jogoAcabou || e.keyCode != 13) return
+
+  contarTentativa()
+
+  const pokemonDigitado = e.target.value
+  const nome1 = pokemonDigitado.toLowerCase()
+  const nome2 = pokemonSorteado.name.toLowerCase()
+
+  if (nome1 == nome2) gameOver()
+  else errou()
+}
+
+function contarTentativa () {
+  tentativas++
+
+  var divTentativas = document.getElementsByClassName("tentativas")[0]
+  divTentativas.innerHTML = `Tentativas: ${tentativas}`
+}
+
+function gameOver () {
+  var pResult = document.getElementsByClassName("result")[0]
+  pResult.innerHTML = "ACERTOU MIZERAVI"
+  pResult.classList.remove("errado")
+  pResult.classList.add("certo")
+
+  jogoAcabou = true
+  menuGameover()
+  revelar()
+}
+function errou () {
+  var pResult = document.getElementsByClassName("result")[0]
+  pResult.innerHTML = "ERROUUUUUUU"
+  pResult.classList.remove("certo")
+  pResult.classList.add("errado")
 }
 
 function atualizarTimer () {
-  var timer = document.getElementsByClassName("timer")[0]
+  var listaDivTimer = document.getElementsByClassName("timer")
+  if (listaDivTimer.length == 0) return
+  var divTimer = listaDivTimer[0]
 
   const
-    tempo = new Date(window.time * 1000),
+    tempo = new Date(time * 1000),
     minutos = tempo.getMinutes(),
     segundos = tempo.getSeconds()
 
   // const
-  //   minutos = Math.floor(window.time / 60),
-  //   segundos = window.time % 60
+  //   minutos = Math.floor(time / 60),
+  //   segundos = time % 60
 
-  timer.innerHTML = `${lz(minutos)}:${lz(segundos)}`
+  divTimer.innerHTML = `${lz(minutos)}:${lz(segundos)}`
+}
+
+function desistir () {
+  revelar()
+  menuGameover()
+  jogoAcabou = true
 }
 
 function lz (number) {
@@ -73,6 +116,7 @@ function lz (number) {
 
 function trocarPosicaoCobertura () {
   var cobertura = document.getElementsByClassName("cobertura")[0]
+
   const
     posicaoTop = Math.floor(Math.random() * 100) + 300,
     posicaoLeft = Math.floor(Math.random() * 100) + 300

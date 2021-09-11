@@ -2,6 +2,8 @@
 
 * { font-family: 'Architects Daughter', cursive; }
 
+.animada{ transition: all 2.0s; }
+
 body { 
   background: #211a21;
   color: #cec9cc;
@@ -48,6 +50,12 @@ body {
   left: -350px;
   border-radius: 550px;
 }
+#jogo .cobertura.revelada{
+  width: 1000px;
+  height: 1000px;
+  border-radius: 1000px;
+  border: solid 0px #000;
+}
 
 #jogo .timer {
   display: block;
@@ -88,3 +96,16 @@ body {
 }
 
 #jogo p { font-size: 0.6em; text-align: center; }
+
+#jogo p.result {
+  height: 30px;
+  font-weight: 900;
+  font-size: 2em;
+}
+#jogo p.result.certo { 
+  color: green;
+}
+#jogo p.result.errado { 
+  color: red;
+}
+
