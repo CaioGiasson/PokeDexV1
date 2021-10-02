@@ -15977,6 +15977,7 @@ const listaPokemon = [
     "evolution": {
       "name": "Blade Forme"
     },
+
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/aegislash.png",
       "large": "https://img.pokemondb.net/artwork/aegislash.jpg",
