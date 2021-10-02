@@ -4,8 +4,13 @@ function pokeCard (pokemon, indiceNoTime = null) {
   const isMega = pokemon.evolution != null
   const name = isMega ? pokemon.evolution.name : pokemon.name
 
-  const image = pokemon.sprites.normal
-
+  const imageType = document.querySelector('input[name="img_type"]:checked').value
+  
+  if (imageType == undefined)
+    var image = pokemon.sprites.normal
+  else
+    var image = pokemon.sprites[imageType]
+  
   return `<div class="pokecard">
   <img class="pequena" src="${image}" alt="Ilustração do pokemon ${name}" />
       <b class="name">${name} (${pokemon.national_number})</b>

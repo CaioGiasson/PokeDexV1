@@ -10498,9 +10498,9 @@ const listaPokemon = [
     "national_number": "439",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/mime-jr..png",
-      "large": "https://img.pokemondb.net/artwork/mime-jr..jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/mime-jr..gif"
+      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/mime-jr.png",
+      "large": "https://img.pokemondb.net/artwork/mime-jr.jpg",
+      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/mime-jr.gif"
     },
     "name": "Mime Jr.",
     "type": [
@@ -11695,9 +11695,9 @@ const listaPokemon = [
       "name": "Altered Forme"
     },
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/giratina.png",
-      "large": "https://img.pokemondb.net/artwork/giratina.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/giratina.gif"
+      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/giratina-altered.png",
+      "large": "https://img.pokemondb.net/artwork/giratina-altered.jpg",
+      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/giratina-altered.gif"
     },
     "name": "Giratina",
     "type": [
@@ -11718,9 +11718,9 @@ const listaPokemon = [
       "name": "Origin Forme"
     },
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/giratina.png",
-      "large": "https://img.pokemondb.net/artwork/giratina.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/giratina.gif"
+      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/giratina-origin.png",
+      "large": "https://img.pokemondb.net/artwork/giratina-origin.jpg",
+      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/giratina-origin.gif"
     },
     "name": "Giratina",
     "type": [
@@ -11821,9 +11821,9 @@ const listaPokemon = [
       "name": "Sky Forme"
     },
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/shaymin.png",
-      "large": "https://img.pokemondb.net/artwork/shaymin.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/shaymin.gif"
+      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/shaymin-sky.png",
+      "large": "https://img.pokemondb.net/artwork/shaymin-sky.jpg",
+      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/shaymin-sky.gif"
     },
     "name": "Shaymin",
     "type": [
@@ -11844,9 +11844,9 @@ const listaPokemon = [
       "name": "Land Forme"
     },
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/shaymin.png",
-      "large": "https://img.pokemondb.net/artwork/shaymin.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/shaymin.gif"
+      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/shaymin-land.png",
+      "large": "https://img.pokemondb.net/artwork/shaymin-land.jpg",
+      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/shaymin-land.gif"
     },
     "name": "Shaymin",
     "type": [
@@ -15298,7 +15298,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/chespin.png",
       "large": "https://img.pokemondb.net/artwork/chespin.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/chespin.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.ec38a57129344f08a7a32d3442fff632.gif"
     },
     "name": "Chespin",
     "type": [
@@ -15318,7 +15318,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/quilladin.png",
       "large": "https://img.pokemondb.net/artwork/quilladin.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/quilladin.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.8a6ebf9754a94b06b38b2776510dfd9b.gif"
     },
     "name": "Quilladin",
     "type": [
@@ -15338,7 +15338,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/chesnaught.png",
       "large": "https://img.pokemondb.net/artwork/chesnaught.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/chesnaught.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.d10e24f99b7ca3a7d5bb05a6b1269a19.gif"
     },
     "name": "Chesnaught",
     "type": [
@@ -15359,7 +15359,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/fennekin.png",
       "large": "https://img.pokemondb.net/artwork/fennekin.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/fennekin.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.a62bfb0478f3a8493dc55874a13e54fe.gif"
     },
     "name": "Fennekin",
     "type": [
@@ -15379,7 +15379,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/braixen.png",
       "large": "https://img.pokemondb.net/artwork/braixen.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/braixen.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.29e7d1790443be96bace07bc15c4bcd2.gif"
     },
     "name": "Braixen",
     "type": [
@@ -15399,7 +15399,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/delphox.png",
       "large": "https://img.pokemondb.net/artwork/delphox.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/delphox.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.4355fe5e8c6f7e6406f21ef3536f69e7.gif"
     },
     "name": "Delphox",
     "type": [
@@ -15420,7 +15420,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/froakie.png",
       "large": "https://img.pokemondb.net/artwork/froakie.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/froakie.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.3ca462d7b89cc348f5becb21d3801fd1.gif"
     },
     "name": "Froakie",
     "type": [
@@ -15440,7 +15440,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/frogadier.png",
       "large": "https://img.pokemondb.net/artwork/frogadier.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/frogadier.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.8e502ae7c1fbb29a868031436d6d8b61.gif"
     },
     "name": "Frogadier",
     "type": [
@@ -15460,7 +15460,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/greninja.png",
       "large": "https://img.pokemondb.net/artwork/greninja.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/greninja.gif"
+      "animated": "https://c.tenor.com/gqrozSetSvoAAAAi/sprite-pokemon.gif"
     },
     "name": "Greninja",
     "type": [
@@ -15504,7 +15504,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/bunnelby.png",
       "large": "https://img.pokemondb.net/artwork/bunnelby.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/bunnelby.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.36a2785963ad82212337f65267d622f7.gif"
     },
     "name": "Bunnelby",
     "type": [
@@ -15524,7 +15524,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/diggersby.png",
       "large": "https://img.pokemondb.net/artwork/diggersby.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/diggersby.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.995bbd9a7869df9a0a03561d477550ee.gif"
     },
     "name": "Diggersby",
     "type": [
@@ -15545,7 +15545,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/fletchling.png",
       "large": "https://img.pokemondb.net/artwork/fletchling.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/fletchling.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.6c5dd43a41184875ec705acd03c0e429.gif"
     },
     "name": "Fletchling",
     "type": [
@@ -15566,7 +15566,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/fletchinder.png",
       "large": "https://img.pokemondb.net/artwork/fletchinder.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/fletchinder.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.ccd9fdc1e4a05d9d68269753988843ce.gif"
     },
     "name": "Fletchinder",
     "type": [
@@ -15587,7 +15587,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/talonflame.png",
       "large": "https://img.pokemondb.net/artwork/talonflame.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/talonflame.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.a10f6d15a11f1cc81bca29583f0bc3af.gif"
     },
     "name": "Talonflame",
     "type": [
@@ -15608,7 +15608,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/scatterbug.png",
       "large": "https://img.pokemondb.net/artwork/scatterbug.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/scatterbug.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.3f3c14eedffe75bbad7b6f75e30f75dd.gif"
     },
     "name": "Scatterbug",
     "type": [
@@ -15628,7 +15628,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/spewpa.png",
       "large": "https://img.pokemondb.net/artwork/spewpa.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/spewpa.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.3ff6605a7ca449968428389b575b1d27.gif"
     },
     "name": "Spewpa",
     "type": [
@@ -15648,7 +15648,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/vivillon.png",
       "large": "https://img.pokemondb.net/artwork/vivillon.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/vivillon.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.1838d97f94c4d7f3d07748bceed751fe.gif"
     },
     "name": "Vivillon",
     "type": [
@@ -15669,7 +15669,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/litleo.png",
       "large": "https://img.pokemondb.net/artwork/litleo.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/litleo.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.f1148003355f1e96a95a88daef480e1a.gif"
     },
     "name": "Litleo",
     "type": [
@@ -15690,7 +15690,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/pyroar.png",
       "large": "https://img.pokemondb.net/artwork/pyroar.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/pyroar.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.ea3ad761654b0b0b04182561458df1c4.gif"
     },
     "name": "Pyroar",
     "type": [
@@ -15709,9 +15709,9 @@ const listaPokemon = [
     "national_number": "669",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/flabébé.png",
-      "large": "https://img.pokemondb.net/artwork/flabébé.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/flabébé.gif"
+      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/flabebe.png",
+      "large": "https://img.pokemondb.net/artwork/flabebe.jpg",
+      "animated": "https://i.kym-cdn.com/photos/images/original/000/684/356/d49.gif"
     },
     "name": "Flabébé",
     "type": [
@@ -15731,7 +15731,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/floette.png",
       "large": "https://img.pokemondb.net/artwork/floette.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/floette.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.f739ac330e70d44dfa07e31eddd06f86.gif"
     },
     "name": "Floette",
     "type": [
@@ -15751,7 +15751,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/florges.png",
       "large": "https://img.pokemondb.net/artwork/florges.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/florges.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.d74076e33ca810031153f2bd55bb8bc6.gif"
     },
     "name": "Florges",
     "type": [
@@ -15771,7 +15771,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/skiddo.png",
       "large": "https://img.pokemondb.net/artwork/skiddo.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/skiddo.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.ff64f4adb10a57d89be61b57f3154ec9.gif"
     },
     "name": "Skiddo",
     "type": [
@@ -15791,7 +15791,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/gogoat.png",
       "large": "https://img.pokemondb.net/artwork/gogoat.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/gogoat.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.d5d06fcc39139d9452eb7e34f6605c51.gif"
     },
     "name": "Gogoat",
     "type": [
@@ -15811,7 +15811,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/pancham.png",
       "large": "https://img.pokemondb.net/artwork/pancham.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/pancham.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.bcc992f9bc20feae10569dc50c6e0769.gif"
     },
     "name": "Pancham",
     "type": [
@@ -15831,7 +15831,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/pangoro.png",
       "large": "https://img.pokemondb.net/artwork/pangoro.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/pangoro.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.42cb1294c34a08333343d75ef32b619e.gif"
     },
     "name": "Pangoro",
     "type": [
@@ -15852,7 +15852,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/furfrou.png",
       "large": "https://img.pokemondb.net/artwork/furfrou.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/furfrou.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.2dac3a71ed4de72d19ade4cb3d411274.gif"
     },
     "name": "Furfrou",
     "type": [
@@ -15872,7 +15872,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/espurr.png",
       "large": "https://img.pokemondb.net/artwork/espurr.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/espurr.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.096f4430d4cca57c47e1afb0018a6126.gif"
     },
     "name": "Espurr",
     "type": [
@@ -15892,9 +15892,9 @@ const listaPokemon = [
       "name": "Male"
     },
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/meowstic.png",
-      "large": "https://img.pokemondb.net/artwork/meowstic.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/meowstic.gif"
+      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/meowstic-male.png",
+      "large": "https://img.pokemondb.net/artwork/meowstic-male.jpg",
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.b390b86ab8ce883d37d8d4180414057f.gif"
     },
     "name": "Meowstic",
     "type": [
@@ -15914,9 +15914,9 @@ const listaPokemon = [
       "name": "Female"
     },
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/meowstic.png",
-      "large": "https://img.pokemondb.net/artwork/meowstic.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/meowstic.gif"
+      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/meowstic-female.png",
+      "large": "https://img.pokemondb.net/artwork/meowstic-female.jpg",
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/1065879225_large.Animatedf.gif.52cf30d6110915dcb1d31bda8056c876.gif"
     },
     "name": "Meowstic",
     "type": [
@@ -15936,7 +15936,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/honedge.png",
       "large": "https://img.pokemondb.net/artwork/honedge.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/honedge.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.96606391656371db778ab47a459cab97.gif"
     },
     "name": "Honedge",
     "type": [
@@ -15957,7 +15957,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/doublade.png",
       "large": "https://img.pokemondb.net/artwork/doublade.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/doublade.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.bf994f89c1d9df98f9774bdfe32faba3.gif"
     },
     "name": "Doublade",
     "type": [
@@ -15980,7 +15980,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/aegislash.png",
       "large": "https://img.pokemondb.net/artwork/aegislash.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/aegislash.gif"
+      "animated": "https://static.wikia.nocookie.net/pokemon/images/3/31/Aegislash_Shield_SS.gif"
     },
     "name": "Aegislash",
     "type": [
@@ -16003,7 +16003,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/aegislash.png",
       "large": "https://img.pokemondb.net/artwork/aegislash.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/aegislash.gif"
+      "animated": "https://static.wikia.nocookie.net/pokemon/images/3/31/Aegislash_Shield_SS.gif"
     },
     "name": "Aegislash",
     "type": [
@@ -16024,7 +16024,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/spritzee.png",
       "large": "https://img.pokemondb.net/artwork/spritzee.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/spritzee.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.6aa9c8251a730d24231c769d10d94ad9.gif"
     },
     "name": "Spritzee",
     "type": [
@@ -16044,7 +16044,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/aromatisse.png",
       "large": "https://img.pokemondb.net/artwork/aromatisse.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/aromatisse.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.03338c03464ed2641fec4b5ddbdfdddc.gif"
     },
     "name": "Aromatisse",
     "type": [
@@ -16064,7 +16064,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/swirlix.png",
       "large": "https://img.pokemondb.net/artwork/swirlix.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/swirlix.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.4be08066941cf1f2ffdb9f0e4b412215.gif"
     },
     "name": "Swirlix",
     "type": [
@@ -16084,7 +16084,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/slurpuff.png",
       "large": "https://img.pokemondb.net/artwork/slurpuff.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/slurpuff.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.d08efbdc9e78ab963cc4635bf80fe027.gif"
     },
     "name": "Slurpuff",
     "type": [
@@ -16104,7 +16104,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/inkay.png",
       "large": "https://img.pokemondb.net/artwork/inkay.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/inkay.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.f441bbab7e07c0f332e1065dcf90338e.gif"
     },
     "name": "Inkay",
     "type": [
@@ -16125,7 +16125,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/malamar.png",
       "large": "https://img.pokemondb.net/artwork/malamar.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/malamar.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.dd3e66caa2065568818dbf44a71dc837.gif"
     },
     "name": "Malamar",
     "type": [
@@ -16146,7 +16146,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/binacle.png",
       "large": "https://img.pokemondb.net/artwork/binacle.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/binacle.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.fe71750517a3fefe84a63f6bdd4cf26a.gif"
     },
     "name": "Binacle",
     "type": [
@@ -16167,7 +16167,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/barbaracle.png",
       "large": "https://img.pokemondb.net/artwork/barbaracle.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/barbaracle.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.a5af087c1b6725603a3e89443bf03ea2.gif"
     },
     "name": "Barbaracle",
     "type": [
@@ -16188,7 +16188,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/skrelp.png",
       "large": "https://img.pokemondb.net/artwork/skrelp.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/skrelp.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.a5af087c1b6725603a3e89443bf03ea2.gif"
     },
     "name": "Skrelp",
     "type": [
@@ -16209,7 +16209,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/dragalge.png",
       "large": "https://img.pokemondb.net/artwork/dragalge.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/dragalge.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.bf723b53c205f0027335e4ce9726a86f.gif"
     },
     "name": "Dragalge",
     "type": [
@@ -16230,7 +16230,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/clauncher.png",
       "large": "https://img.pokemondb.net/artwork/clauncher.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/clauncher.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.56b09c5439df0726bc2b447391a3afae.gif"
     },
     "name": "Clauncher",
     "type": [
@@ -16250,7 +16250,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/clawitzer.png",
       "large": "https://img.pokemondb.net/artwork/clawitzer.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/clawitzer.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.0f9e0b808c9d37eb077764af472aaaf7.gif"
     },
     "name": "Clawitzer",
     "type": [
@@ -16270,7 +16270,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/helioptile.png",
       "large": "https://img.pokemondb.net/artwork/helioptile.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/helioptile.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.6c03a6c0a657bc5366be7f358223d02e.gif"
     },
     "name": "Helioptile",
     "type": [
@@ -16291,7 +16291,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/heliolisk.png",
       "large": "https://img.pokemondb.net/artwork/heliolisk.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/heliolisk.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.29e77e4813cef68a625721f4c8e36d6d.gif"
     },
     "name": "Heliolisk",
     "type": [
@@ -16312,7 +16312,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/tyrunt.png",
       "large": "https://img.pokemondb.net/artwork/tyrunt.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/tyrunt.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.4531bd68e8be1fa418fe0a88ab26f05b.gif"
     },
     "name": "Tyrunt",
     "type": [
@@ -16333,7 +16333,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/tyrantrum.png",
       "large": "https://img.pokemondb.net/artwork/tyrantrum.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/tyrantrum.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/313995008_large.AnimatedShiny.gif.4b72eec43082965362aff298ab54a82a.gif"
     },
     "name": "Tyrantrum",
     "type": [
@@ -16354,7 +16354,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/amaura.png",
       "large": "https://img.pokemondb.net/artwork/amaura.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/amaura.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.41dda5404f00414784c30b485925c88d.gif"
     },
     "name": "Amaura",
     "type": [
@@ -16375,7 +16375,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/aurorus.png",
       "large": "https://img.pokemondb.net/artwork/aurorus.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/aurorus.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/1434639769_large.AnimatedShiny.gif.657d99640eee5416a9754801357dbad1.gif"
     },
     "name": "Aurorus",
     "type": [
@@ -16396,7 +16396,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/sylveon.png",
       "large": "https://img.pokemondb.net/artwork/sylveon.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/sylveon.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.9370bdf380fa9b1d4bb8c4c80cbaa830.gif"
     },
     "name": "Sylveon",
     "type": [
@@ -16416,7 +16416,7 @@ const listaPokemon = [
     "sprites": {
       "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/hawlucha.png",
       "large": "https://img.pokemondb.net/artwork/hawlucha.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/hawlucha.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2021_09/large.Animated.gif.56539fc6c6aad50c0cb8c32588665a92.gif"
     },
     "name": "Hawlucha",
     "type": [
@@ -17087,9 +17087,9 @@ const listaPokemon = [
     "national_number": "722",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/rowlet.png",
-      "large": "https://img.pokemondb.net/artwork/rowlet.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/rowlet.gif"
+      "normal": "https://www.serebii.net/swordshield/pokemon/722.png",
+      "large": "https://cdn2.bulbagarden.net/upload/thumb/7/74/722Rowlet.png/900px-722Rowlet.png",
+      "animated": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9dc6494f-eba7-48de-90b3-132930504974/ddpcsaj-970ec72a-b687-48a0-a57e-c2b2b7f72c7a.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzlkYzY0OTRmLWViYTctNDhkZS05MGIzLTEzMjkzMDUwNDk3NFwvZGRwY3Nhai05NzBlYzcyYS1iNjg3LTQ4YTAtYTU3ZS1jMmIyYjdmNzJjN2EuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.GQWYim7yMv5hsOgU9CxRgWzrtg6tvawSW09CT1WWgQQ"
     },
     "name": "Rowlet",
     "type": [
@@ -17108,9 +17108,9 @@ const listaPokemon = [
     "national_number": "723",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/dartrix.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/723.png",
       "large": "https://img.pokemondb.net/artwork/dartrix.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/dartrix.gif"
+      "animated": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/34ef4010-bf9a-4fc7-bf05-01402fd24c69/dbdciqr-f5034117-a94b-439f-8d6a-75828ff310d1.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM0ZWY0MDEwLWJmOWEtNGZjNy1iZjA1LTAxNDAyZmQyNGM2OVwvZGJkY2lxci1mNTAzNDExNy1hOTRiLTQzOWYtOGQ2YS03NTgyOGZmMzEwZDEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.B-bLUIkTNQWlYkp_6P0hmwOUZDqWKLsgjLFk_DFwaTk"
     },
     "name": "Dartrix",
     "type": [
@@ -17129,9 +17129,9 @@ const listaPokemon = [
     "national_number": "724",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/decidueye.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/724.png",
       "large": "https://img.pokemondb.net/artwork/decidueye.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/decidueye.gif"
+      "animated": "https://www.pkparaiso.com/imagenes/espada_escudo/sprites/animados-gigante/decidueye.gif"
     },
     "name": "Decidueye",
     "type": [
@@ -17150,9 +17150,9 @@ const listaPokemon = [
     "national_number": "725",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/litten.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/725.png",
       "large": "https://img.pokemondb.net/artwork/litten.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/litten.gif"
+      "animated": "http://pa1.narvii.com/7233/94b9e8791a463a69b1eadf6610a834bd47000a11r1-150-150_00.gif"
     },
     "name": "Litten",
     "type": [
@@ -17170,9 +17170,9 @@ const listaPokemon = [
     "national_number": "726",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/torracat.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/726.png",
       "large": "https://img.pokemondb.net/artwork/torracat.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/torracat.gif"
+      "animated": "https://imgur.com/6NTu1nT.gif"
     },
     "name": "Torracat",
     "type": [
@@ -17190,9 +17190,9 @@ const listaPokemon = [
     "national_number": "727",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/incineroar.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/727.png",
       "large": "https://img.pokemondb.net/artwork/incineroar.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/incineroar.gif"
+      "animated": "https://www.pkparaiso.com/imagenes/espada_escudo/sprites/animados-gigante/incineroar.gif"
     },
     "name": "Incineroar",
     "type": [
@@ -17211,9 +17211,9 @@ const listaPokemon = [
     "national_number": "728",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/popplio.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/728.png",
       "large": "https://img.pokemondb.net/artwork/popplio.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/popplio.gif"
+      "animated": "https://thumbs.gfycat.com/BriefDimwittedHeron-max-1mb.gif"
     },
     "name": "Popplio",
     "type": [
@@ -17231,9 +17231,9 @@ const listaPokemon = [
     "national_number": "729",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/brionne.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/729.png",
       "large": "https://img.pokemondb.net/artwork/brionne.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/brionne.gif"
+      "animated": "https://c.tenor.com/smXomw1Rz2kAAAAi/brionne-pokemon.gif"
     },
     "name": "Brionne",
     "type": [
@@ -17251,9 +17251,9 @@ const listaPokemon = [
     "national_number": "730",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/primarina.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/730.png",
       "large": "https://img.pokemondb.net/artwork/primarina.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/primarina.gif"
+      "animated": "https://static.wikia.nocookie.net/pokemon/images/4/45/PrimarinaBack.gif"
     },
     "name": "Primarina",
     "type": [
@@ -17272,9 +17272,9 @@ const listaPokemon = [
     "national_number": "731",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/pikipek.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/731.png",
       "large": "https://img.pokemondb.net/artwork/pikipek.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/pikipek.gif"
+      "animated": "https://www.shinyhunters.com/images/shiny/731.gif"
     },
     "name": "Pikipek",
     "type": [
@@ -17293,9 +17293,9 @@ const listaPokemon = [
     "national_number": "732",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/trumbeak.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/732.png",
       "large": "https://img.pokemondb.net/artwork/trumbeak.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/trumbeak.gif"
+      "animated": "http://pa1.narvii.com/6764/2a623ac7d0ee545dff3d016a34f0a9f02775d1ad_00.gif"
     },
     "name": "Trumbeak",
     "type": [
@@ -17314,9 +17314,9 @@ const listaPokemon = [
     "national_number": "733",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/toucannon.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/733.png",
       "large": "https://img.pokemondb.net/artwork/toucannon.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/toucannon.gif"
+      "animated": "http://noonimedia.com/images/3framepkmn/733toucannon.gif"
     },
     "name": "Toucannon",
     "type": [
@@ -17335,9 +17335,9 @@ const listaPokemon = [
     "national_number": "734",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/yungoos.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/734.png",
       "large": "https://img.pokemondb.net/artwork/yungoos.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/yungoos.gif"
+      "animated": "https://media.pokemoncentral.it/wiki/e/ed/Sprslm734.gif"
     },
     "name": "Yungoos",
     "type": [
@@ -17355,9 +17355,9 @@ const listaPokemon = [
     "national_number": "735",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/gumshoos.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/735.png",
       "large": "https://img.pokemondb.net/artwork/gumshoos.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/gumshoos.gif"
+      "animated": "https://projectpokemon.org/home/uploads/monthly_2018_02/gumshoos-totem-b.gif.53c44b40e800c56bf0dabd2ac0101c6d.gif"
     },
     "name": "Gumshoos",
     "type": [
@@ -17375,9 +17375,9 @@ const listaPokemon = [
     "national_number": "736",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/grubbin.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/736.png",
       "large": "https://img.pokemondb.net/artwork/grubbin.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/grubbin.gif"
+      "animated": "https://www.pkparaiso.com/imagenes/espada_escudo/sprites/animados-gigante/grubbin.gif"
     },
     "name": "Grubbin",
     "type": [
@@ -17395,9 +17395,9 @@ const listaPokemon = [
     "national_number": "737",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/charjabug.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/737.png",
       "large": "https://img.pokemondb.net/artwork/charjabug.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/charjabug.gif"
+      "animated": "https://c.tenor.com/4bO1RWejafYAAAAC/charjabug.gif"
     },
     "name": "Charjabug",
     "type": [
@@ -17416,9 +17416,9 @@ const listaPokemon = [
     "national_number": "738",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/vikavolt.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/738.png",
       "large": "https://img.pokemondb.net/artwork/vikavolt.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/vikavolt.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/vikavolt.gif"
     },
     "name": "Vikavolt",
     "type": [
@@ -17437,9 +17437,9 @@ const listaPokemon = [
     "national_number": "739",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/crabrawler.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/739.png",
       "large": "https://img.pokemondb.net/artwork/crabrawler.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/crabrawler.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/crabrawler.gif"
     },
     "name": "Crabrawler",
     "type": [
@@ -17457,9 +17457,9 @@ const listaPokemon = [
     "national_number": "740",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/crabominable.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/740.png",
       "large": "https://img.pokemondb.net/artwork/crabominable.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/crabominable.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/crabominable.gif"
     },
     "name": "Crabominable",
     "type": [
@@ -17480,9 +17480,9 @@ const listaPokemon = [
       "name": "Pa'u Style"
     },
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/oricorio.png",
-      "large": "https://img.pokemondb.net/artwork/oricorio.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/oricorio.gif"
+      "normal": "https://marriland.com/wp-content/plugins/marriland-core/images/pokemon/sprites/home/full/oricorio-pau.png",
+      "large": "https://img.pokemondb.net/artwork/oricorio-pau.jpg",
+      "animated": "https://projectpokemon.org/images/normal-sprite/oricorio-pau.gif"
     },
     "name": "Oricorio",
     "type": [
@@ -17503,9 +17503,9 @@ const listaPokemon = [
       "name": "Sensu Style"
     },
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/oricorio.png",
-      "large": "https://img.pokemondb.net/artwork/oricorio.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/oricorio.gif"
+      "normal": "https://img.pokemondb.net/sprites/bank/normal/oricorio-sensu.png",
+      "large": "https://img.pokemondb.net/artwork/oricorio-sensu.jpg",
+      "animated": "https://projectpokemon.org/images/normal-sprite/oricorio-sensu.gif"
     },
     "name": "Oricorio",
     "type": [
@@ -17526,9 +17526,9 @@ const listaPokemon = [
       "name": "Baile Style"
     },
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/oricorio.png",
-      "large": "https://img.pokemondb.net/artwork/oricorio.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/oricorio.gif"
+      "normal": "https://www.serebii.net/swordshield/pokemon/741.png",
+      "large": "https://img.pokemondb.net/artwork/oricorio-baile.jpg",
+      "animated": "https://projectpokemon.org/images/normal-sprite/oricorio.gif"
     },
     "name": "Oricorio",
     "type": [
@@ -17549,9 +17549,9 @@ const listaPokemon = [
       "name": "Pom-Pom Style"
     },
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/oricorio.png",
-      "large": "https://img.pokemondb.net/artwork/oricorio.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/oricorio.gif"
+      "normal": "https://img.pokemondb.net/sprites/bank/normal/oricorio-pom-pom.png",
+      "large": "https://img.pokemondb.net/artwork/oricorio-pom-pom.jpg",
+      "animated": "https://projectpokemon.org/images/normal-sprite/oricorio-pompom.gif"
     },
     "name": "Oricorio",
     "type": [
@@ -17570,9 +17570,9 @@ const listaPokemon = [
     "national_number": "742",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/cutiefly.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/742.png",
       "large": "https://img.pokemondb.net/artwork/cutiefly.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/cutiefly.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/cutiefly.gif"
     },
     "name": "Cutiefly",
     "type": [
@@ -17591,9 +17591,9 @@ const listaPokemon = [
     "national_number": "743",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/ribombee.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/743.png",
       "large": "https://img.pokemondb.net/artwork/ribombee.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/ribombee.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/ribombee.gif"
     },
     "name": "Ribombee",
     "type": [
@@ -17612,9 +17612,9 @@ const listaPokemon = [
     "national_number": "744",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/rockruff.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/744.png",
       "large": "https://img.pokemondb.net/artwork/rockruff.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/rockruff.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/rockruff.gif"
     },
     "name": "Rockruff",
     "type": [
@@ -17634,9 +17634,9 @@ const listaPokemon = [
       "name": "Midday Form"
     },
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/lycanroc.png",
-      "large": "https://img.pokemondb.net/artwork/lycanroc.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/lycanroc.gif"
+      "normal": "https://www.serebii.net/swordshield/pokemon/745.png",
+      "large": "https://img.pokemondb.net/artwork/lycanroc-midday.jpg",
+      "animated": "https://projectpokemon.org/images/normal-sprite/lycanroc.gif"
     },
     "name": "Lycanroc",
     "type": [
@@ -17656,9 +17656,9 @@ const listaPokemon = [
       "name": "Midnight Form"
     },
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/lycanroc.png",
-      "large": "https://img.pokemondb.net/artwork/lycanroc.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/lycanroc.gif"
+      "normal": "https://img.pokemondb.net/sprites/sun-moon/normal/lycanroc-midnight.png",
+      "large": "https://img.pokemondb.net/artwork/lycanroc-midnight.jpg",
+      "animated": "https://projectpokemon.org/images/normal-sprite/lycanroc-midnight.gif"
     },
     "name": "Lycanroc",
     "type": [
@@ -17678,9 +17678,9 @@ const listaPokemon = [
       "name": "Dusk Form"
     },
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/lycanroc.png",
-      "large": "https://img.pokemondb.net/artwork/lycanroc.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/lycanroc.gif"
+      "normal": "https://img.pokemondb.net/sprites/bank/normal/lycanroc-dusk.png",
+      "large": "https://img.pokemondb.net/artwork/lycanroc-dusk.jpg",
+      "animated": "https://projectpokemon.org/images/normal-sprite/lycanroc-dusk.gif"
     },
     "name": "Lycanroc",
     "type": [
@@ -17700,9 +17700,9 @@ const listaPokemon = [
       "name": "Solo Form"
     },
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/wishiwashi.png",
-      "large": "https://img.pokemondb.net/artwork/wishiwashi.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/wishiwashi.gif"
+      "normal": "https://img.pokemondb.net/sprites/bank/normal/wishiwashi.png",
+      "large": "https://img.pokemondb.net/artwork/wishiwashi-solo.jpg",
+      "animated": "https://projectpokemon.org/images/normal-sprite/wishiwashi.gif"
     },
     "name": "Wishiwashi",
     "type": [
@@ -17722,9 +17722,9 @@ const listaPokemon = [
       "name": "School Form"
     },
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/wishiwashi.png",
-      "large": "https://img.pokemondb.net/artwork/wishiwashi.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/wishiwashi.gif"
+      "normal": "https://img.pokemondb.net/sprites/bank/normal/wishiwashi-school.png",
+      "large": "https://img.pokemondb.net/artwork/wishiwashi-school.jpg",
+      "animated": "https://projectpokemon.org/images/normal-sprite/wishiwashi-school.gif"
     },
     "name": "Wishiwashi",
     "type": [
@@ -17742,9 +17742,9 @@ const listaPokemon = [
     "national_number": "747",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/mareanie.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/747.png",
       "large": "https://img.pokemondb.net/artwork/mareanie.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/mareanie.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/mareanie.gif"
     },
     "name": "Mareanie",
     "type": [
@@ -17763,9 +17763,9 @@ const listaPokemon = [
     "national_number": "748",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/toxapex.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/748.png",
       "large": "https://img.pokemondb.net/artwork/toxapex.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/toxapex.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/toxapex.gif"
     },
     "name": "Toxapex",
     "type": [
@@ -17784,9 +17784,9 @@ const listaPokemon = [
     "national_number": "749",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/mudbray.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/749.png",
       "large": "https://img.pokemondb.net/artwork/mudbray.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/mudbray.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/mudbray.gif"
     },
     "name": "Mudbray",
     "type": [
@@ -17804,9 +17804,9 @@ const listaPokemon = [
     "national_number": "750",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/mudsdale.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/750.png",
       "large": "https://img.pokemondb.net/artwork/mudsdale.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/mudsdale.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/mudsdale.gif"
     },
     "name": "Mudsdale",
     "type": [
@@ -17824,9 +17824,9 @@ const listaPokemon = [
     "national_number": "751",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/dewpider.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/751.png",
       "large": "https://img.pokemondb.net/artwork/dewpider.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/dewpider.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/dewpider.gif"
     },
     "name": "Dewpider",
     "type": [
@@ -17845,9 +17845,9 @@ const listaPokemon = [
     "national_number": "752",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/araquanid.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/752.png",
       "large": "https://img.pokemondb.net/artwork/araquanid.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/araquanid.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/araquanid.gif"
     },
     "name": "Araquanid",
     "type": [
@@ -17866,9 +17866,9 @@ const listaPokemon = [
     "national_number": "753",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/fomantis.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/753.png",
       "large": "https://img.pokemondb.net/artwork/fomantis.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/fomantis.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/fomantis.gif"
     },
     "name": "Fomantis",
     "type": [
@@ -17886,9 +17886,9 @@ const listaPokemon = [
     "national_number": "754",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/lurantis.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/754.png",
       "large": "https://img.pokemondb.net/artwork/lurantis.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/lurantis.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/lurantis.gif"
     },
     "name": "Lurantis",
     "type": [
@@ -17906,9 +17906,9 @@ const listaPokemon = [
     "national_number": "755",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/morelull.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/755.png",
       "large": "https://img.pokemondb.net/artwork/morelull.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/morelull.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/morelull.gif"
     },
     "name": "Morelull",
     "type": [
@@ -17927,9 +17927,9 @@ const listaPokemon = [
     "national_number": "756",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/shiinotic.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/756.png",
       "large": "https://img.pokemondb.net/artwork/shiinotic.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/shiinotic.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/shiinotic.gif"
     },
     "name": "Shiinotic",
     "type": [
@@ -17948,9 +17948,9 @@ const listaPokemon = [
     "national_number": "757",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/salandit.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/757.png",
       "large": "https://img.pokemondb.net/artwork/salandit.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/salandit.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/salandit.gif"
     },
     "name": "Salandit",
     "type": [
@@ -17969,9 +17969,9 @@ const listaPokemon = [
     "national_number": "758",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/salazzle.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/758.png",
       "large": "https://img.pokemondb.net/artwork/salazzle.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/salazzle.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/salazzle.gif"
     },
     "name": "Salazzle",
     "type": [
@@ -17990,9 +17990,9 @@ const listaPokemon = [
     "national_number": "759",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/stufful.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/759.png",
       "large": "https://img.pokemondb.net/artwork/stufful.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/stufful.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/stufful.gif"
     },
     "name": "Stufful",
     "type": [
@@ -18011,9 +18011,9 @@ const listaPokemon = [
     "national_number": "760",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/bewear.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/760.png",
       "large": "https://img.pokemondb.net/artwork/bewear.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/bewear.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/bewear.gif"
     },
     "name": "Bewear",
     "type": [
@@ -18032,9 +18032,9 @@ const listaPokemon = [
     "national_number": "761",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/bounsweet.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/761.png",
       "large": "https://img.pokemondb.net/artwork/bounsweet.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/bounsweet.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/bounsweet.gif"
     },
     "name": "Bounsweet",
     "type": [
@@ -18052,9 +18052,9 @@ const listaPokemon = [
     "national_number": "762",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/steenee.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/762.png",
       "large": "https://img.pokemondb.net/artwork/steenee.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/steenee.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/steenee.gif"
     },
     "name": "Steenee",
     "type": [
@@ -18072,9 +18072,9 @@ const listaPokemon = [
     "national_number": "763",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/tsareena.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/763.png",
       "large": "https://img.pokemondb.net/artwork/tsareena.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/tsareena.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/tsareena.gif"
     },
     "name": "Tsareena",
     "type": [
@@ -18092,9 +18092,9 @@ const listaPokemon = [
     "national_number": "764",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/comfey.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/764.png",
       "large": "https://img.pokemondb.net/artwork/comfey.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/comfey.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/comfey.gif"
     },
     "name": "Comfey",
     "type": [
@@ -18112,9 +18112,9 @@ const listaPokemon = [
     "national_number": "765",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/oranguru.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/765.png",
       "large": "https://img.pokemondb.net/artwork/oranguru.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/oranguru.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/oranguru.gif"
     },
     "name": "Oranguru",
     "type": [
@@ -18133,9 +18133,9 @@ const listaPokemon = [
     "national_number": "766",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/passimian.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/766.png",
       "large": "https://img.pokemondb.net/artwork/passimian.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/passimian.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/passimian.gif"
     },
     "name": "Passimian",
     "type": [
@@ -18153,9 +18153,9 @@ const listaPokemon = [
     "national_number": "767",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/wimpod.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/767.png",
       "large": "https://img.pokemondb.net/artwork/wimpod.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/wimpod.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/wimpod.gif"
     },
     "name": "Wimpod",
     "type": [
@@ -18174,9 +18174,9 @@ const listaPokemon = [
     "national_number": "768",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/golisopod.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/768.png",
       "large": "https://img.pokemondb.net/artwork/golisopod.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/golisopod.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/golisopod.gif"
     },
     "name": "Golisopod",
     "type": [
@@ -18195,9 +18195,9 @@ const listaPokemon = [
     "national_number": "769",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/sandygast.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/769.png",
       "large": "https://img.pokemondb.net/artwork/sandygast.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/sandygast.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/sandygast.gif"
     },
     "name": "Sandygast",
     "type": [
@@ -18216,9 +18216,9 @@ const listaPokemon = [
     "national_number": "770",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/palossand.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/770.png",
       "large": "https://img.pokemondb.net/artwork/palossand.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/palossand.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/palossand.gif"
     },
     "name": "Palossand",
     "type": [
@@ -18237,9 +18237,9 @@ const listaPokemon = [
     "national_number": "771",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/pyukumuku.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/771.png",
       "large": "https://img.pokemondb.net/artwork/pyukumuku.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/pyukumuku.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/pyukumuku.gif"
     },
     "name": "Pyukumuku",
     "type": [
@@ -18257,9 +18257,9 @@ const listaPokemon = [
     "national_number": "772",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/type:-null.png",
-      "large": "https://img.pokemondb.net/artwork/type:-null.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/type:-null.gif"
+      "normal": "https://www.serebii.net/swordshield/pokemon/772.png",
+      "large": "https://img.pokemondb.net/artwork/type-null.jpg",
+      "animated": "https://projectpokemon.org/images/normal-sprite/typenull.gif"
     },
     "name": "Type: Null",
     "type": [
@@ -18277,9 +18277,9 @@ const listaPokemon = [
     "national_number": "773",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/silvally.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/773.png",
       "large": "https://img.pokemondb.net/artwork/silvally.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/silvally.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/silvally.gif"
     },
     "name": "Silvally",
     "type": [
@@ -18299,9 +18299,9 @@ const listaPokemon = [
       "name": "Meteor Form"
     },
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/minior.png",
-      "large": "https://img.pokemondb.net/artwork/minior.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/minior.gif"
+      "normal": "https://www.serebii.net/pokemon/art/774.png",
+      "large": "https://img.pokemondb.net/artwork/minior-meteor.jpg",
+      "animated": "https://projectpokemon.org/images/normal-sprite/minior.gif"
     },
     "name": "Minior",
     "type": [
@@ -18322,9 +18322,9 @@ const listaPokemon = [
       "name": "Core Form"
     },
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/minior.png",
-      "large": "https://img.pokemondb.net/artwork/minior.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/minior.gif"
+      "normal": "https://www.serebii.net/pokemon/art/774-r.png",
+      "large": "https://img.pokemondb.net/artwork/minior-core.jpg",
+      "animated": "https://projectpokemon.org/images/normal-sprite/minior-red.gif"
     },
     "name": "Minior",
     "type": [
@@ -18343,9 +18343,9 @@ const listaPokemon = [
     "national_number": "775",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/komala.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/775.png",
       "large": "https://img.pokemondb.net/artwork/komala.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/komala.gif"
+      "animated": "https://projectpokemon.org/images/shiny-sprite/komala.gif"
     },
     "name": "Komala",
     "type": [
@@ -18363,9 +18363,9 @@ const listaPokemon = [
     "national_number": "776",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/turtonator.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/776.png",
       "large": "https://img.pokemondb.net/artwork/turtonator.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/turtonator.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/turtonator.gif"
     },
     "name": "Turtonator",
     "type": [
@@ -18384,9 +18384,9 @@ const listaPokemon = [
     "national_number": "777",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/togedemaru.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/777.png",
       "large": "https://img.pokemondb.net/artwork/togedemaru.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/togedemaru.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/togedemaru.gif"
     },
     "name": "Togedemaru",
     "type": [
@@ -18405,9 +18405,9 @@ const listaPokemon = [
     "national_number": "778",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/mimikyu.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/778.png",
       "large": "https://img.pokemondb.net/artwork/mimikyu.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/mimikyu.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/mimikyu.gif"
     },
     "name": "Mimikyu",
     "type": [
@@ -18426,9 +18426,9 @@ const listaPokemon = [
     "national_number": "779",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/bruxish.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/779.png",
       "large": "https://img.pokemondb.net/artwork/bruxish.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/bruxish.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/bruxish.gif"
     },
     "name": "Bruxish",
     "type": [
@@ -18447,9 +18447,9 @@ const listaPokemon = [
     "national_number": "780",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/drampa.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/780.png",
       "large": "https://img.pokemondb.net/artwork/drampa.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/drampa.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/drampa.gif"
     },
     "name": "Drampa",
     "type": [
@@ -18468,9 +18468,9 @@ const listaPokemon = [
     "national_number": "781",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/dhelmise.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/781.png",
       "large": "https://img.pokemondb.net/artwork/dhelmise.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/dhelmise.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/dhelmise.gif"
     },
     "name": "Dhelmise",
     "type": [
@@ -18489,9 +18489,9 @@ const listaPokemon = [
     "national_number": "782",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/jangmo-o.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/782.png",
       "large": "https://img.pokemondb.net/artwork/jangmo-o.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/jangmo-o.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/jangmo-o.gif"
     },
     "name": "Jangmo-o",
     "type": [
@@ -18509,9 +18509,9 @@ const listaPokemon = [
     "national_number": "783",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/hakamo-o.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/783.png",
       "large": "https://img.pokemondb.net/artwork/hakamo-o.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/hakamo-o.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/hakamo-o.gif"
     },
     "name": "Hakamo-o",
     "type": [
@@ -18530,9 +18530,9 @@ const listaPokemon = [
     "national_number": "784",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/kommo-o.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/784.png",
       "large": "https://img.pokemondb.net/artwork/kommo-o.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/kommo-o.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/kommo-o.gif"
     },
     "name": "Kommo-o",
     "type": [
@@ -18551,9 +18551,9 @@ const listaPokemon = [
     "national_number": "785",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/tapu-koko.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/785.png",
       "large": "https://img.pokemondb.net/artwork/tapu-koko.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/tapu-koko.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/tapukoko.gif"
     },
     "name": "Tapu Koko",
     "type": [
@@ -18572,9 +18572,9 @@ const listaPokemon = [
     "national_number": "786",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/tapu-lele.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/786.png",
       "large": "https://img.pokemondb.net/artwork/tapu-lele.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/tapu-lele.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/tapulele.gif"
     },
     "name": "Tapu Lele",
     "type": [
@@ -18593,9 +18593,9 @@ const listaPokemon = [
     "national_number": "787",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/tapu-bulu.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/787.png",
       "large": "https://img.pokemondb.net/artwork/tapu-bulu.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/tapu-bulu.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/tapubulu.gif"
     },
     "name": "Tapu Bulu",
     "type": [
@@ -18614,9 +18614,9 @@ const listaPokemon = [
     "national_number": "788",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/tapu-fini.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/788.png",
       "large": "https://img.pokemondb.net/artwork/tapu-fini.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/tapu-fini.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/tapufini.gif"
     },
     "name": "Tapu Fini",
     "type": [
@@ -18635,9 +18635,9 @@ const listaPokemon = [
     "national_number": "789",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/cosmog.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/789.png",
       "large": "https://img.pokemondb.net/artwork/cosmog.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/cosmog.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/cosmog.gif"
     },
     "name": "Cosmog",
     "type": [
@@ -18655,9 +18655,9 @@ const listaPokemon = [
     "national_number": "790",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/cosmoem.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/790.png",
       "large": "https://img.pokemondb.net/artwork/cosmoem.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/cosmoem.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/cosmoem.gif"
     },
     "name": "Cosmoem",
     "type": [
@@ -18675,9 +18675,9 @@ const listaPokemon = [
     "national_number": "791",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/solgaleo.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/791.png",
       "large": "https://img.pokemondb.net/artwork/solgaleo.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/solgaleo.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/solgaleo.gif"
     },
     "name": "Solgaleo",
     "type": [
@@ -18696,9 +18696,9 @@ const listaPokemon = [
     "national_number": "792",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/lunala.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/792.png",
       "large": "https://img.pokemondb.net/artwork/lunala.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/lunala.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/lunala.gif"
     },
     "name": "Lunala",
     "type": [
@@ -18717,9 +18717,9 @@ const listaPokemon = [
     "national_number": "793",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/nihilego.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/793.png",
       "large": "https://img.pokemondb.net/artwork/nihilego.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/nihilego.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/nihilego.gif"
     },
     "name": "Nihilego",
     "type": [
@@ -18738,9 +18738,9 @@ const listaPokemon = [
     "national_number": "794",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/buzzwole.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/794.png",
       "large": "https://img.pokemondb.net/artwork/buzzwole.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/buzzwole.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/buzzwole.gif"
     },
     "name": "Buzzwole",
     "type": [
@@ -18759,9 +18759,9 @@ const listaPokemon = [
     "national_number": "795",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/pheromosa.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/795.png",
       "large": "https://img.pokemondb.net/artwork/pheromosa.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/pheromosa.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/pheromosa.gif"
     },
     "name": "Pheromosa",
     "type": [
@@ -18780,9 +18780,9 @@ const listaPokemon = [
     "national_number": "796",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/xurkitree.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/796.png",
       "large": "https://img.pokemondb.net/artwork/xurkitree.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/xurkitree.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/xurkitree.gif"
     },
     "name": "Xurkitree",
     "type": [
@@ -18800,9 +18800,9 @@ const listaPokemon = [
     "national_number": "797",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/celesteela.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/797.png",
       "large": "https://img.pokemondb.net/artwork/celesteela.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/celesteela.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/celesteela.gif"
     },
     "name": "Celesteela",
     "type": [
@@ -18821,9 +18821,9 @@ const listaPokemon = [
     "national_number": "798",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/kartana.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/798.png",
       "large": "https://img.pokemondb.net/artwork/kartana.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/kartana.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/kartana.gif"
     },
     "name": "Kartana",
     "type": [
@@ -18842,9 +18842,9 @@ const listaPokemon = [
     "national_number": "799",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/guzzlord.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/799.png",
       "large": "https://img.pokemondb.net/artwork/guzzlord.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/guzzlord.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/guzzlord.gif"
     },
     "name": "Guzzlord",
     "type": [
@@ -18865,9 +18865,9 @@ const listaPokemon = [
       "name": "Dusk Mane Necrozma"
     },
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/necrozma.png",
-      "large": "https://img.pokemondb.net/artwork/necrozma.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/necrozma.gif"
+      "normal": "https://www.serebii.net/swordshield/pokemon/800-dm.png",
+      "large": "https://img.pokemondb.net/artwork/necrozma-dusk-mane.jpg",
+      "animated": "https://projectpokemon.org/images/normal-sprite/necrozma-dusk-mane.gif"
     },
     "name": "Necrozma",
     "type": [
@@ -18888,9 +18888,9 @@ const listaPokemon = [
       "name": "Dawn Wings Necrozma"
     },
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/necrozma.png",
-      "large": "https://img.pokemondb.net/artwork/necrozma.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/necrozma.gif"
+      "normal": "https://www.serebii.net/swordshield/pokemon/800-dw.png",
+      "large": "https://img.pokemondb.net/artwork/necrozma-dawn-wings.jpg",
+      "animated": "https://projectpokemon.org/images/normal-sprite/necrozma-dawn-wings.gif"
     },
     "name": "Necrozma",
     "type": [
@@ -18911,9 +18911,9 @@ const listaPokemon = [
       "name": "Ultra Necrozma"
     },
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/necrozma.png",
-      "large": "https://img.pokemondb.net/artwork/necrozma.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/necrozma.gif"
+      "normal": "https://www.serebii.net/swordshield/pokemon/800-u.png",
+      "large": "https://img.pokemondb.net/artwork/necrozma-ultra.jpg",
+      "animated": "https://projectpokemon.org/images/normal-sprite/necrozma-ultra.gif"
     },
     "name": "Necrozma",
     "type": [
@@ -18932,9 +18932,9 @@ const listaPokemon = [
     "national_number": "800",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/necrozma.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/800.png",
       "large": "https://img.pokemondb.net/artwork/necrozma.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/necrozma.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/necrozma.gif"
     },
     "name": "Necrozma",
     "type": [
@@ -18952,9 +18952,9 @@ const listaPokemon = [
     "national_number": "801",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/magearna.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/801.png",
       "large": "https://img.pokemondb.net/artwork/magearna.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/magearna.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/magearna.gif"
     },
     "name": "Magearna",
     "type": [
@@ -18973,9 +18973,9 @@ const listaPokemon = [
     "national_number": "802",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/marshadow.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/802.png",
       "large": "https://img.pokemondb.net/artwork/marshadow.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/marshadow.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/marshadow.gif"
     },
     "name": "Marshadow",
     "type": [
@@ -18994,9 +18994,9 @@ const listaPokemon = [
     "national_number": "803",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/poipole.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/803.png",
       "large": "https://img.pokemondb.net/artwork/poipole.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/poipole.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/poipole.gif"
     },
     "name": "Poipole",
     "type": [
@@ -19014,9 +19014,9 @@ const listaPokemon = [
     "national_number": "804",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/naganadel.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/804.png",
       "large": "https://img.pokemondb.net/artwork/naganadel.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/naganadel.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/naganadel.gif"
     },
     "name": "Naganadel",
     "type": [
@@ -19035,9 +19035,9 @@ const listaPokemon = [
     "national_number": "805",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/stakataka.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/805.png",
       "large": "https://img.pokemondb.net/artwork/stakataka.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/stakataka.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/stakataka.gif"
     },
     "name": "Stakataka",
     "type": [
@@ -19056,9 +19056,9 @@ const listaPokemon = [
     "national_number": "806",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/blacephalon.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/806.png",
       "large": "https://img.pokemondb.net/artwork/blacephalon.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/blacephalon.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/blacephalon.gif"
     },
     "name": "Blacephalon",
     "type": [
@@ -19077,9 +19077,9 @@ const listaPokemon = [
     "national_number": "807",
     "evolution": null,
     "sprites": {
-      "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/zeraora.png",
+      "normal": "https://www.serebii.net/swordshield/pokemon/807.png",
       "large": "https://img.pokemondb.net/artwork/zeraora.jpg",
-      "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/zeraora.gif"
+      "animated": "https://projectpokemon.org/images/normal-sprite/zeraora.gif"
     },
     "name": "Zeraora",
     "type": [
