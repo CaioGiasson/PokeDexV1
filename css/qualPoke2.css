@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+* { font-family: 'Architects Daughter', cursive; }
+
+.animada{ transition: all 0.5s; }
+
+body { 
+  background: #211a21;
+  color: #cec9cc;
+  font-size: 1.5em;
+}
+
+.button {
+  padding: 8px 25px;
+  font-size: 1em;
+  background-color: #b5b6e4;
+  color: #4f43ae;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #4f43ae;
+  color: #cec9cc;
+}
+
+#jogo {
+  display: block;
+  position: relative;
+}
+
+#jogo .pokemon {
+  display: block;
+  position: relative;
+  margin: 20px auto;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+
+#jogo .cobertura {
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: solid 500px #000;
+  top: -350px;
+  left: -350px;
+  border-radius: 550px;
+}
+#jogo .cobertura.revelada{
+  width: 1000px;
+  height: 1000px;
+  border-radius: 1000px;
+  border: solid 0px #000;
+}
+
+#jogo .timer {
+  display: block;
+  position: absolute;
+  background: #908a99;
+  padding: 0 20px;
+  border-radius: 30px;
+  color: #211a21;
+  top: 0;
+  left: 0;
+}
+
+#jogo .tentativas {
+  display: block;
+  position: absolute;
+  background: #908a99;
+  padding: 0 20px;
+  border-radius: 30px;
+  color: #211a21;
+  top: 40px;
+  left: 0;
+}
+
+#jogo .pokemon .fundo { 
+  display: block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+#jogo .pokemon .qual { 
+  display: block;
+  position: absolute;
+  height: 250px;
+  top: 75px;
+  left: -30px;
+  transform: scaleX(-1);
+}
+#jogo .pokemon .qual.oculto {
+  filter: contrast(0) sepia(20%) hue-rotate(190deg) saturate(1400%) brightness(70%);
+}
+#jogo .pokemon .sombra { 
+  display: block;
+  position: absolute;
+  height: 250px;
+  top: 80px;
+  left: -34px;
+  transform: scaleX(-1);
+  filter: contrast(0) sepia(20%) hue-rotate(190deg) saturate(1400%) brightness(70%);
+  opacity: 0.5;
+}
+
+#jogo .nomePokemon {
+  display: block;
+  position: relative;
+  width: 300px;
+  height: 40px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.4em;
+}
+
+#jogo p { font-size: 0.6em; text-align: center; }
+
+#jogo p.result {
+  height: 30px;
+  font-weight: 900;
+  font-size: 2em;
+}
+#jogo p.result.certo { 
+  color: green;
+}
+#jogo p.result.errado { 
+  color: red;
+}
+
