@@ -3,11 +3,22 @@ body {
   overflow: hidden;
 }
 
-#personagem {
+.personagem {
   display: block;
   position: absolute;
   background-color: #fd8f4d;
   width: 50px;
   height: 50px;
   border-radius: 50px;
+  border: solid 4px black;
+  cursor: pointer;
+  z-index: 50;
 }
+
+.personagem.p1 { background-color: red; }
+.personagem.p2 { background-color: green; }
+.personagem.p3 { background-color: blue; }
+.personagem.p4 { background-color: yellow; }
+
+.personagem.selecionado { border: solid 4px greenyellow; z-index: 100; }
+
